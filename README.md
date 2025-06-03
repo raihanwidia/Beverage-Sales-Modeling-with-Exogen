@@ -1,11 +1,11 @@
 # Beverage Sales Prediction 
 
 
-This is Project / Exercises of creation of sales prediction of bevarage based on the "store5.csv" 
+This is Project / Exercises of creation of sales prediction of bevarage based on the "store5.csv" with the influence of Oil Price and Number of Promotion
 
 # EDA 
 
-below table are the preview of the sales data , we only filtered data only "Beverage" 
+below table are the preview of the sales data , we only filtered data only "Beverage" . The data shows sales perday in range from 2013 - 2017 
 
 | id    | date    | date       |store_nbr| family                    | sales       | onpromotion | dcoilwtico |
 |-------|---------|------------|--------|----------------------------|-------------|------------|-------|
@@ -45,5 +45,20 @@ Below are the steps taken added
 - Adding Rolling Mean
 
 
+# Model Result 
 
+## ARIMA 
+```
+MSE: 128502.80072444007
+RMSE: 358.47287306634524
+MAE: 266.3299551027572
+MAPE: 12.935611759407028
+```
+## LSTM
 
+```
+MSE: 0.01109312557734297
+RMSE: 0.1053239079095671
+MAE: 0.08255850481157935
+MAPE: 21.118641497766564
+```
